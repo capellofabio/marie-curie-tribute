@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <header class="blue padding-left">
+        <div class="text-wrapper">
+            <h1 id="title">Marie Curie: Uma Mulher da Ciência, Duas Vezes Honrada</h1>
+            <p class="title-description">A primeira mulher a ganhar o prêmio Nobel</p>
+            <p class="wiki-button"><a href="https://en.wikipedia.org/wiki/Marie_Curie">Clique aqui para acessar a página da wikipedia</a></p>
+        </div>
+        <img id="header-photo" src="marie-curie-front.jpg" alt="Uma foto frontal de Marie Curie">
+    </header>
+
+    <main id="main">
+        <section id="early-life" class="white padding-left padding-top">
+            <h2>De Varsóvia a Paris</h2>
+            <input type="checkbox" name="change-text" id="change-text">
+            <div class="checkbox-hack-container">
+                <p id="early-paragraph-one" class="max-width40">Nascida Maria Skłodowska na Polônia ocupada, ela enfrentou barreiras políticas e sociais para estudar. Filha de professores, aprendeu cedo o valor do conhecimento.</p>
+                <p id="early-paragraph-two" class="max-width40">Em 1891, seguiu para Paris, onde se matriculou na Sorbonne, adotando o nome "Marie" e iniciando uma jornada que mudaria a ciência para sempre.</p>
+            </div>
+            <label for="change-text"><i class="fa-solid fa-circle-arrow-left"></i><i class="fa-solid fa-ellipsis"></i><i class="fa-solid fa-circle-arrow-right"></i></label>
+        </section>
+
+        <section id="quotes" class="blue padding-left padding-top">
+            <div class="text-wrapper">
+                <h2>Citações</h2>
+                <p class="max-width40">"Nada na vida deve ser temido, apenas compreendido. Agora é a hora de compreender mais, para que possamos temer menos."</p>
+                <p class="max-width40">"Seja menos curioso sobre as pessoas e mais curioso sobre as ideias."</p>
+                <!-- Adicionar mais citações -->
+            </div>
+            <img src="marie-curie-holding-collar.jpg" alt="Marie Curie segurando um colar" id="quote-photo">
+        </section>
+
+        <section id="radioactivity" class="blue padding-right padding-left padding-top">
+            <img src="marie-curie-holding-flask.webp" alt="Marie Curie de lado, encarando um frasco em sua mão direita" id="radioactivity-photo">
+            <div class="text-wrapper">
+                <h2>A Descoberta do Invisível</h2>
+                <p class="max-width40">Trabalhando em um galpão improvisado com seu marido Pierre, Marie processou toneladas de pechblenda (minério de urânio). Sua dedicação incansável levou ao isolamento de dois novos elementos: o Polônio (em homenagem à sua terra natal) e o Rádio.</p>
+                <p class="note">Nota: Foi Marie quem cunhou o termo "Radioatividade".</p>
+            </div>
+        </section>
+
+        <section id="two-nobels" class="white padding-right padding-left padding-top">
+            <h2 class="align-center">Uma Lenda, Duas Ciências</h2>
+            <div class="figure-wrapper">
+                <figure>
+                    <img src="first-nobel.jpg" alt="Medalha do primeiro Nobel da Marie Curie">
+                    <figcaption style="text-align: center;">Nobel de Física</figcaption>
+                </figure>
+                <p class="max-width40">Marie Curie não foi apenas a primeira mulher a ganhar um Nobel, mas a primeira pessoa na história a ganhar dois, em campos diferentes: física e química.</p>
+                <figure>
+                    <img src="second-nobel.jpg" alt="Medalha do segundo Nobel da Marie Curie">
+                    <figcaption style="text-align: center;">Nobel de Química</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="legacy" class="white padding-left">
+            <h2 class="align-center">Ciência a Serviço da Humanidade</h2>
+
+            <div class="wrapper">
+                <img src="marie-curie-doing-experiments.webp" alt="Marie Curie realizando experimentos em seu laboratório">
+
+                <div class="text-wrapper">
+                    <p class="max-width40">Durante a Primeira Guerra Mundial, ela desenvolveu as "Petites Curies" — unidades móveis de raio-X que salvaram milhares de soldados. Hoje, seus institutos em Paris e Varsóvia continuam na vanguarda do tratamento do câncer e da pesquisa nuclear.</p>
+
+                    <div class="quotes">
+                        <p class="max-width40">A vida não é fácil para nenhum de nós. Mas e daí? Temos de ter perseverança e, acima de tudo, confiança em nós mesmos. <strong>Devemos acreditar que somos dotados para alguma coisa e que essa coisa, a qualquer custo, deve ser alcançada.</strong></p>
+                        <br>
+                        <p class="max-width40">Não se pode esperar construir um mundo melhor sem melhorar os indivíduos. Para esse fim, cada um de nós deve trabalhar pelo seu próprio aperfeiçoamento e, ao mesmo tempo, compartilhar uma responsabilidade geral por toda a humanidade, <strong>sendo nosso dever particular ajudar aqueles a quem pensamos poder ser mais úteis.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
