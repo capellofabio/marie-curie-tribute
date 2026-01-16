@@ -16,3 +16,7 @@ CSS3: (@media, flexbox, classes utilitárias, posicionamento)
 ## Como visualizar
 Clique no link abaixo
 **[Acesse o Deploy do Projeto aqui](adicionar o link aqui depois)**
+
+
+## Fonte das citações
+https://en.wikiquote.org/wiki/Marie_Curie
